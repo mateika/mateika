@@ -3486,7 +3486,7 @@ body.is-preload #wrapper.fade-in:before {
 
 #intro {
 	color: #ffffff;
-	padding: 4rem 4rem 6rem 4rem;
+	padding: 3rem 4rem 6rem 4rem;
 	-moz-align-items: center;
 	-webkit-align-items: center;
 	-ms-align-items: center;
@@ -3513,6 +3513,7 @@ body.is-preload #wrapper.fade-in:before {
 	z-index: 1;
 	min-height: 100vh;
 }
+
 
 #intro input,
 #intro select,
@@ -3550,6 +3551,12 @@ body.is-preload #wrapper.fade-in:before {
 	font-family: "Source Sans Pro", Helvetica, sans-serif !important;
 	font-weight: 400 !important;
 	margin: 0 0 3rem 0;
+}
+
+@media screen and (max-width: 980px) {
+	#intro h1 {
+		padding-top: 10rem !important;
+	}
 }
 
 #intro h1 span {
@@ -4065,14 +4072,14 @@ body.is-preload #intro:not(.hidden)+#header+#nav {
 
 @media screen and (max-width: 980px) {
 
-    .mate-benefits {
-        justify-content: space-between;
-        gap: 2rem 0;
-    }
+	.mate-benefits {
+		justify-content: space-between;
+		gap: 2rem 0;
+	}
 
-    .benefit {
-        width: 48%;
-    }
+	.benefit {
+		width: 48%;
+	}
 
 }
 
@@ -4105,13 +4112,13 @@ body.is-preload #intro:not(.hidden)+#header+#nav {
 	padding: 8rem 8rem 6rem 8rem;
 }
 
-#main>#intro_home {
-	padding: 8rem 8rem 2rem 8rem;
+#main>#mateika_intro {
+	padding: 7rem 8rem 2rem 8rem;
 }
 
 @media screen and (max-width: 980px) {
-	#main>#intro_home {
-		padding: 8rem 2rem 2rem 2rem;
+	#main>#mateika_intro {
+		padding: 7rem 2rem 2rem 2rem;
 	}
 
 	#main>.post {
@@ -4956,7 +4963,7 @@ article p span.precio strong {
 	display: none;
 	-webkit-overflow-scrolling: touch;
 	background-color: #ffffff !important;
-    background-image: url('../../images/logo_mate_mateika.png');
+	background-image: url('../../images/logo_mate_mateika.png');
 	background-size: 32px auto;
 	background-repeat: no-repeat;
 	background-position: 30px 50px;
@@ -5173,7 +5180,7 @@ body#body_producto #wrapper {
 }
 
 .precio {
-    color:#3db277;
+	color: #3db277;
 }
 
 .ficha_producto .info_producto .major {
@@ -5309,7 +5316,7 @@ body#body_producto #wrapper {
 		margin: 0 0 1rem 0 !important;
 	}
 
-	.ficha_producto .info_producto .disponibilidad  {
+	.ficha_producto .info_producto .disponibilidad {
 		text-align: center !important;
 	}
 
