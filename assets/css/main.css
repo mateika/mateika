@@ -5267,8 +5267,16 @@ body#body_producto #wrapper {
 		padding: 0 !important;
 	}
 
-	.ficha_producto .info_producto {
+	.mas_productos .productos .producto header {
+		padding-bottom: 1.2rem !important;
+	}
+
+	.mas_productos .productos .actions.special {
 		padding-top: 1.5rem !important;
+	}
+
+	.ficha_producto .producto h2 {
+		padding-bottom: 2rem;
 	}
 
 	.ficha_producto .info_producto p {
