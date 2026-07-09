@@ -3696,7 +3696,7 @@ body.is-preload #intro:not(.hidden)+#header+#nav {
 	}
 
 	#header {
-		margin-top: 4rem;
+		margin-top: 2rem;
 	}
 
 }
