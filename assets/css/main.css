@@ -5348,7 +5348,7 @@ body#body_producto #wrapper {
 		display: block !important;
 		background-color: transparent !important;
 		border: none !important;
-		color: #FFF !important;
+		color: #3db277 !important;
 	}
 
 	.slide.prev:hover,
@@ -5356,7 +5356,7 @@ body#body_producto #wrapper {
 		display: block !important;
 		background-color: transparent !important;
 		border: none !important;
-		color: #3db277 !important;
+		color: #17ff8b !important;
 	}
 
 	.slide.prev {
