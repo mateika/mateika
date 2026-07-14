@@ -5153,9 +5153,26 @@ article p span.precio strong {
 
 /* Ficha de Producto */
 
+body#body_producto {
+	background-color: #212931;
+
+	background-image:
+		linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+		url("../../images/bg.jpg");
+
+	background-size: cover;
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
 body#body_producto #wrapper {
 	overflow: visible !important;
 	transform: none !important;
+}
+
+body#body_producto #wrapper > .bg {
+	display: none;
 }
 
 .ficha_producto {
@@ -5174,7 +5191,6 @@ body#body_producto #wrapper {
 	position: sticky;
 	top: 2rem;
 	align-self: start;
-	position: sticky;
 	top: 0rem;
 	align-self: start;
 }
